@@ -72,7 +72,7 @@ for _ in range(10):
 # Invert scaling for the predictions
 predicted_values = scaler.inverse_transform(np.array(predicted_values).reshape(-1, 1))
 
-# Create future dates for the next 10 days
+# Create future dates for the next 10 dayspu
 last_date = df.index[-1]
 future_dates = pd.date_range(last_date, periods=11, freq='B')[1:]
 

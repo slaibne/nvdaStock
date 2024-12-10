@@ -47,4 +47,4 @@ def load_and_process_nvda_data(start_date, end_date, csv_filename):
         print(f"Error occurred: {e}")
 
 # Example usage
-load_and_process_nvda_data(start_date="2019-01-01", end_date="2024-12-03", csv_filename="nvda_stock_data.csv")
+load_and_process_nvda_data(start_date="2019-01-01", end_date="2024-12-10", csv_filename="nvda_stock_data.csv")
